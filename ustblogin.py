@@ -36,11 +36,12 @@ def login(username='41521238',password='08228739'):
     flag = 0
     if test == []:
         print ('failed! check your accout and password.')
+        input('\nfinished')
     else:
        print(test[0])
        flag = 1
         
-    input('\nfinished')
+    # input('\nfinished')
  
 if __name__ == '__main__':
     login()  
